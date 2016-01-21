@@ -1,0 +1,180 @@
+<style type="text/css">
+#wrap {
+	max-width:1050px;
+	margin:auto;
+	}
+#menu_horisontal {
+	width:1000px;
+	height:75px;
+	border:1px solid blue;
+	background-color: darkred;
+	color: black;
+	margin-bottom:5px;
+	text-align:left;
+	z-index:200;
+	box-shadow: 8px 8px 8px black;
+	border-radius: 0px 0px 10px 10px;
+	margin-top:6px;
+	}
+#header {
+	position:relative;
+	top:5px;
+	max-width:1000px;
+	height:170px;
+	background-color:transparent;
+	display:block;
+	margin-bottom:2px;
+	border:1px solid blue;
+	}
+#simbol {
+    position:left;
+	width:220px;
+	height:170px;
+	top:10px;
+	right:50px;
+	border:1px solid blue;
+	background-color: transparent;
+	}
+#slogan {
+	width:780px;
+	height:170px;
+	top:0px;
+	left:220px;
+	position:absolute;
+	border:1px solid blue;
+	font-family:Almostlike;
+	text-align:center;
+	background-color:lightblue;
+	color:darkred;
+	}
+#kiri {
+	width:200px;
+	margin-top:2px;
+	height:530px;
+	position:relative;
+	display:block;
+	float:left;
+	}
+#menu_vertikal {
+	position:absolute;
+	width:220px;
+	height:425px;
+	display:block;
+	border:1px solid blue;
+	background-color:lightblue;
+	color:darkred;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	font-family:Almostlike;
+
+	}
+#menu_vertikal li {
+	list-style-type:none;
+	text-align:left;
+	}
+#menu_vertikal li a {
+	text-decoration:none;
+    height: 40px;
+	width: 190px;
+	background-color:lightyellow;
+	display:block;
+	border-top:1px solid black;
+	padding: .2em .8em;
+	margin-top: 8px;
+	font-family:fifties;
+	font-size:19px;
+	color:darkred;
+	text-align:center;
+	}
+#menu_vertikal ul {
+	padding:0px;
+	margin-top:11px;
+	}
+#menu_vertikal li a:hover {
+	background-color: red;
+	color:black;
+	}
+#banner {
+	position:absolute;
+	margin-top:425px;
+	width:220px;
+	min-height:200px;
+	background-color:lime;
+	display:block;
+	border:1px solid black;
+	margin-bottom:50px;
+	float:left;
+	}
+#content {
+	float:left;
+	width: 750px;
+	margin-top: 5px;
+	margin-left: 30px;
+	background-color: silver;
+	display: block;
+	border: 1px solid blue;
+	padding:18px 7px 20px 7px;
+	border-radius: 0px 0px 10px 10px;
+	opacity:0.9;
+	filter :alpha(opacity=70);
+	}
+#footer {
+	clear:both;
+	margin-top: 648px;
+	max-width: 1000px;
+	height: 80px;
+	text-align: center;
+	background-color:lightblue;
+	color: black;
+	display:block;
+	padding:2px;
+	opacity:0.7;
+	filter :alpha(opacity=70);
+	}
+#menu_horisontal ul {
+	padding:0px;
+	margin:15px;
+	list-style-type:none;
+	text-align:left;
+}
+#menu_horisontal li {
+	display:inline;
+}
+#menu_horisontal li a {
+    top:15px;
+	text-decoration:none;
+	background-color:lightgray;
+	color:darkred;
+	border-right:1px solid gray;
+	padding: .2em 1em;
+	font-size:25px;
+	margin: 15px 15px 15px;
+	box-shadow: 5px 5px 5px black;
+    border-radius:5px 5px 5px 5px;
+    font-family: COCO;
+	}
+#menu_horisontal li a:hover {
+	background-color:gray;
+	color:white;
+}
+body {
+   background-image: url(pict1/bekron.png);
+   background-repeat:no-repeat;
+   background-size:cover;
+			 }
+@font-face {
+		            font-family: Fifties;
+					src: url('font/FiftiesMovies.ttf');
+		   }
+@font-face {
+		            font-family: Almostlike;
+					src: url('font/Almostliketheblues.ttf');
+		   }
+@font-face {
+		            font-family: COCO;
+					src: url('font/COCOGOOSELETTERPRESSTRIAL.ttf');
+</style>
+
+
+
